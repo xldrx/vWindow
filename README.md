@@ -9,16 +9,15 @@ Install
 
 You'll need `Python 2.7` and `pip` to install vWindow.
 
-After download sources, install other requirements by:
+1. Download project files
 
-`pip install -r requirments.txt`
+2. Install other requirements by: `pip install -r requirments.txt`
 
-
-Edit `settings.py` according to your setting.
+3. Edit `settings.py` accordingly.
 
 
 Run
 ===
 
-Run:
-`python ./run_me.py`
+1. Run: `python ./run_me.py`
+2. Navigate your web browser to shown address.
