@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>XLDRX Virtual Window</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="static/css/normalize.min.css">
+        <link rel="stylesheet" href="static/css/main.css">
+        <link rel="stylesheet" href="static/css/onepcssgrid.css">
+
+		<link rel="stylesheet" type="text/css" media="all" href="static/css/960/reset.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="static/css/960/text.css" />
+		<link rel="stylesheet" type="text/css" media="all" href="static/css/960/960.css" />
+
+        <script src="static/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+            	<div class="xldrx xlBoxText">info@xldrx.com</div>
+                <embed id="qt_embed" width="100%" height="100%" controller="false" autoplay="true" src="http://{{webcam_addr}}/qt.mov" qtsrc="rtsp://{{webcam_addr}}:554/live2.sdp" type="video/quicktime" scale="ToFit" onclick="return false;">
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+		
+<!-- 		<div class="clearfix"></div> -->
+		
+        <div class="footer-container" onclick="goFullscreen();">
+            <div class="container_12">
+            		<div class="grid_5" style="height:120px; vertical-align:middle;">
+            			<div class="xlBox xlRed xlBoxText" id="ride-Red-wb">
+            				<div class="large" id="ride-Red-wb-1st">10</div><br/>
+            				<div class="medium" id="ride-Red-wb-2nd">5</div><br/>
+            				<div class="small">min ▶</div>
+            			</div>
+            			
+            			<div class="xlBox xlGreen xlBoxText" id="ride-Green-eb">
+            				<div class="large" id="ride-Green-eb-1st">10</div><br/>
+            				<div class="medium" id="ride-Green-eb-2nd">5</div><br/>
+            				<div class="small">min</div>
+            			</div>
+            			
+
+            			<div class="xlBox xlRed xlBoxText" id="ride-Red-eb">
+            				<div class="large" id="ride-Red-eb-1st">10</div><br/>
+            				<div class="medium" id="ride-Red-eb-2nd">5</div><br/>
+            				<div class="small">◀︎ min</div>
+            			</div>
+            			
+            			<div class="xlBox xlYellow xlBoxText" id="ride-Yellow">
+            				<div class="large" id="ride-Yellow-1st">10</div><br/>
+            				<div class="medium" id="ride-Yellow-2nd">5</div><br/>
+            				<div class="small">min</div>
+            			</div>
+            			
+            			<div class="xlBox xlGray xlBoxText" id="ride-SafeRide">
+            				<div class="large" id="ride-SafeRide-1st">10</div><br/>
+            				<div class="medium" id="ride-SafeRide-2nd">5</div><br/>
+            				<div class="small">min</div>
+            			</div>
+            			            			
+            		</div>
+					<div class="grid_2">
+					    <div class="footer-parent" style="width:100%;">
+							<div id="fr_icon"></div>
+						</div>
+            		</div>
+            		<div class="grid_4">
+            			<div class="footer-parent">
+							<div id="fr_text" class="w_text"> Life is beautiful</div>
+            			</div>
+            		</div>
+            		
+					<div class="grid_1">
+            			<div class="footer-parent">
+							<div class="w_text">
+								<span id="tf_text" class="imp">80F</span>
+								<span id="tc_text">20C</span>
+							</div>
+
+            			</div>
+            		</div>
+
+            		
+					<div class="clear"></div>
+            </div>
+        </div>
+
+        <script src="static/js/jquery-2.0.3.js"></script>
+<!--         <script src="static/js/jquery-2.0.3.min.js"></script>         -->
+        <script src="static/js/main.js"></script>
+        <script src="static/js/xl.js"></script>
+        
+    </body>
+</html>

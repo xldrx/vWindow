@@ -1,0 +1,598 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    height: 100%;
+	width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 5%;
+}
+
+.main-container {
+	height: 100%;
+	width: 100%;
+}
+
+.main, .wrapper, .clearfix{
+	height: 100%;
+	width: 100%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+    border-bottom: 20px solid #e44d26;
+}
+
+.footer-container,
+.main aside {
+}
+
+.header-container,
+.footer-container,
+.main aside {
+/*     background: #f16529; */
+}
+
+.title {
+    color: white;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #e44d26;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+/*     padding: 30px 0; */
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container {
+	text-align: center;
+    color: white;
+	position: fixed;
+	height: 120px;
+	width: 100%;
+	bottom: 0px;
+	
+
+/*     border-top: 20px solid #e44d26; */
+  background: #4786b3; /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM0Nzg2YjMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMmU1NjczIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-radial-gradient(center, ellipse cover,  #4786b3 0%, #2e5673 100%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#4786b3), color-stop(100%,#2e5673)); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover,  #4786b3 0%,#2e5673 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover,  #4786b3 0%,#2e5673 100%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover,  #4786b3 0%,#2e5673 100%); /* IE10+ */
+  background: radial-gradient(center, ellipse cover,  #4786b3 0%,#2e5673 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4786b3', endColorstr='#2e5673',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  *background-image: none; /* Reset for IE7 to avoid mixed content warnings */
+
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+/*         width: 57%; */
+    }
+
+    .main aside {
+        float: right;
+/*         width: 28%; */
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 100%; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+.footer-parent{
+	display: table;
+	height: 120px;
+}
+
+.w_text{
+/* 	font-family: "American TypeWriter"; */
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+   font-size: 25pt;
+   color: #99c2ff;
+   display: table-cell;
+   line-height: 30px;
+   vertical-align: middle;
+}
+
+#fr_icon{
+	width: 100px;
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-position: right center;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: right;
+}
+
+.imp{
+	font-weight: 700;
+	color: white;
+}
+
+
+
+.xlLeftBox {
+    display: inline-block;
+    position: relative;
+    
+    background: #a7d753;
+    margin: 1px 0px 1px 29px;
+    padding: 1px 5px 1px 2px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.xlLeftBox:after, .xlLeftBox:before {
+    right: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none
+}
+
+.xlLeftBox:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-right-color: #a7d753;
+    border-width: 30px;
+    top: 50%;
+    margin-top: -30px
+}
+
+.xlLeftBox:before {
+}
+
+.xlRightBox {
+    display: inline-block;
+    position: relative;
+    background: #eca2a2;
+    margin: 1px 29px 1px 0px;
+    padding: 1px 2px 1px 5px;
+    height: 60px;
+    line-height: 60px;
+
+
+}
+
+.xlRightBox:after, .xlRightBox:before {
+    left: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none
+}
+
+.xlRightBox:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #eca2a2;
+    border-width: 30px;
+    top: 50%;
+    margin-top: -30px
+}
+
+.xlRightBox:before {
+}
+
+.xlBoxText{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+}
+
+.xldrx{
+	font-size: 10pt;
+	font-weight: 200;
+	color: white;
+	position: fixed;
+	right: 2px;
+	top: 0px;
+}
+
+.large{
+	font-size: 32pt;
+	font-weight: 700;
+	color: black;
+	margin-bottom: -35px;
+}
+
+.medium{
+	color: black;
+	font-size: 25pt;
+	margin-bottom: -20px;
+}
+
+.small{
+	color: rgba(50,50,50,1);
+	font-size: 13pt;
+	position: absolute;
+	bottom: 0px;
+	width: 50px;
+    text-align: right;
+}
+
+.xlBox {
+    display: inline-block;
+    position: relative;
+    background: #ffffff;
+    margin: 1px 1px 1px 1px;
+    padding: 1px 5px 1px 5px;
+    height: 100%;
+    width: 50px;
+}
+
+.xlRed {
+	background: #ff6e6e;
+}
+
+.xlGreen {
+	background: #5ee05a;
+}
+
+.xlYellow {
+	background: #c9e610;
+}
+
+.xlLeft{
+	border-radius: 0px 30px 0px 0px;
+}
+
+.xlRight{
+	border-radius: 30px 0px 0px 0px;
+}
