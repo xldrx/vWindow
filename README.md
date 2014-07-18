@@ -20,4 +20,4 @@ Run
 ===
 
 1. Run: `python ./run_me.py`
-2. Navigate your web browser to shown address.
+2. Navigate your web browser to shown address. (Fully tested on Google Chrome +30)
